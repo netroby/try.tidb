@@ -34,7 +34,7 @@ function append(str, klass, prefix, isHtml) {
 
     if (!isHtml) {
         prefix = escapeHtml(prefix);
-        str = escapeHtml(str);
+        str = escapeHtml(str).replace(/\n/g, "<br />");
     }
 
     var message =
