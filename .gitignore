@@ -2,3 +2,5 @@
 .bundle
 tmp/**
 log/**
+.vscode/*
+try.tidb
